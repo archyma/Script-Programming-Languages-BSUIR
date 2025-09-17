@@ -1,2 +1,2 @@
-# Script Programming Languages BSUIR
+Labs Script PL
 
