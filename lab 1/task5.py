@@ -67,8 +67,8 @@ while menu:
                 if len(bag) > 0:
                     suma = 0
                     for k, v in bag.items():
-                        print(f"{k} - {v}")
-                        suma += v[1]
+                        print(f"{k} - {v[1]} руб. {v[2]} шт.")
+                        suma += v[1] * v[2]
                     print(f"Общая стоимость - {suma} руб.")
                     print("1. Купить\n2. Убрать из корзины\n3. Назад")
                     mode = int(input("Mode: "))
